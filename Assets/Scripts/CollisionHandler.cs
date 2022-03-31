@@ -14,6 +14,7 @@ public class CollisionHandler : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        crash =
     }
    
     void OnCollisionEnter(Collision other) 
